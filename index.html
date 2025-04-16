@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="src/style/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing Page</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-burger" id="nav_logo"> food</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+                <div id="cta">
+                    <h1 class="title">
+                        O sabor que vai até
+                        <span>você</span>
+                    </h1>
+
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                    </p>
+
+                    <div id="cta_buttons">
+                        <a href="" class="btn-default">
+                            ver cardápio
+                        </a>
+
+                        <a href="tel:+55 43984925510" id="phone_button">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-phone"></i>
+                            </button>
+                            &nbsp;(43) 98492-5510
+                        </a>
+                    </div>
+
+                    <div class="social-media-buttons">
+                        <a href="">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/shin.pmnh/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="banner">
+                    <img src="src/imagens/hero.png" alt="">
+                </div>
+            
+        </section>
+                
+        <section id="menu">
+            <div class="menu-scroll">
+                <h2 class="section-title">Cardápio</h2>
+                <h3 class="section-subtitle">Nossos pratos especiais</h3>
+            </div>
+
+            <div id="dishes">
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                    <img src="src/imagens/dish.png" class="dish-image" alt="">
+                    
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                    <img src="src/imagens/dish2.png" class="dish-image" alt="">
+                    
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(300+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$12,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                    <img src="src/imagens/dish3.png" class="dish-image" alt="">
+                    
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(250+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$10,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+
+                    <img src="src/imagens/dish4.png" class="dish-image" alt="">
+                    
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(300+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$14,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        
+                
+        </section>
+
+        <section id="testimonials">
+            <img src="src/imagens/chef.png" id="testimonials_chef" alt="">
+
+            <div id="testimonials_content">
+                <div class="efeito-escada">
+                    <h2 class="section-title">Depoimentos</h2>
+                    <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
+                </div>
+
+                <div id="feedbacks">
+                    <div class="efeito-escada">
+                        <div class="feedback">
+                            <img src="src/imagens/avatar (3).png" class="feedback-avatar" alt="">
+
+                            <div class="feedback-content">
+                                <p>
+                                    <em>Fulana de tal</em>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </p>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error illum deleniti ut exercitationem esse.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="efeito-escada">
+                        <div class="feedback">
+                            <img src="src/imagens/Avatar (4).png" class="feedback-avatar-2" alt="">
+
+                            <div class="feedback-content">
+                                <p>
+                                    <em>Fulano de tal</em>
+                                    <span>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </p>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error illum deleniti ut exercitationem esse. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/imagens/wave.svg" class="footer-wave" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2025 Erick Fukumoto
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.instagram.com/shin.pmnh/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
