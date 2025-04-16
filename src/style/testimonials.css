@@ -75,11 +75,19 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     #testimonials .section-subtitle {
         text-align: center;
         font-size: 2.5rem;
+    }
+
+    .efeito-escada {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 
